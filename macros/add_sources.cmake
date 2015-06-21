@@ -1,0 +1,5 @@
+macro(add_sources)
+  foreach (_src ${ARGN})
+    set (SRCS ${SRCS} ${_src})
+  endforeach()
+endmacro()
